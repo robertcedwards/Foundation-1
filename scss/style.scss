@@ -1,8 +1,6 @@
-@import "app.scss";
-
 $body-bg: #fff;
 $body-font-color: #222;
-$body-font-family: "ClarendonBT-Light", "Georgia", serif;
+$body-font-family: "ClarendonBT-Light", sans-serif;
 $body-font-weight: normal;
 $body-font-style: normal;
 
@@ -25,3 +23,5 @@ $header-line-height: 1.4;
 $header-top-margin: .2em;
 $header-bottom-margin: .5em;
 $header-text-rendering: optimizeLegibility;
+@import "app.scss";
+
