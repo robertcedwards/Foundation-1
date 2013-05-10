@@ -14,6 +14,7 @@
  * Initiate Foundation, for WordPress
  */
 
+
 if ( ! function_exists( 'foundation_setup' ) ) :
 
 function foundation_setup() {
@@ -71,12 +72,14 @@ function foundation_assets() {
 		wp_deregister_script('jquery');
 
 		// Load JavaScripts
-		wp_enqueue_script( 'foundation', get_template_directory_uri() . '/js/foundation.min.js', null, '4.0', true );
-		wp_enqueue_script( 'modernizr', get_template_directory_uri().'/js/vendor/custom.modernizr.js', null, '2.1.0');
+		wp_enqueue_script( 'app', get_template_directory_uri() . '/js/app-ck.js', null, '1.0', true );		
+		wp_enqueue_script( 'foundation', get_template_directory_uri() . '/js/foundation/foundation-ck.js', null, '4.0', true );
+		wp_enqueue_script( 'orbit', get_template_directory_uri() . '/js/foundation/foundation.orbit-ck.js', null, '4.0', true );
+		wp_enqueue_script( 'modernizr', get_template_directory_uri().'/js/vendor/custom.modernizr-ck.js', null, '2.6.2');
 		if ( is_singular() ) wp_enqueue_script( "comment-reply" );
 
 		// Load Stylesheets
-		wp_enqueue_style( 'style', get_template_directory_uri().'/stylesheets/style.css' );		
+		wp_enqueue_style( 'style', get_template_directory_uri().'/css/style.css' );		
 		wp_enqueue_style( 'app', get_stylesheet_uri(), array('foundation') );
 
 		// Load Google Fonts API
