@@ -355,7 +355,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "ClarendonBT-Light", sans-serif;
+  font-family: "ClarendonBT-Light";
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -4437,3 +4437,6 @@ a.th {
     max-width: 500px; }
   .f-dropdown.large {
     max-width: 800px; }
+
+body {
+  font-family: "ClarendonBT-Light", sans-serif; }

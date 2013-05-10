@@ -69,13 +69,13 @@ function foundation_assets() {
 		 * jQuery will be used as a fallback if ZeptoJS is not compatible
 		 * @see foundation_compatibility & http://foundation.zurb.com/docs/javascript.html
 		 */
-		wp_deregister_script('jquery');
 
 		// Load JavaScripts
 		wp_enqueue_script( 'app', get_template_directory_uri() . '/js/app-ck.js', null, '1.0', true );		
 		wp_enqueue_script( 'foundation', get_template_directory_uri() . '/js/foundation/foundation-ck.js', null, '4.0', true );
 		wp_enqueue_script( 'orbit', get_template_directory_uri() . '/js/foundation/foundation.orbit-ck.js', null, '4.0', true );
 		wp_enqueue_script( 'modernizr', get_template_directory_uri().'/js/vendor/custom.modernizr-ck.js', null, '2.6.2');
+
 		if ( is_singular() ) wp_enqueue_script( "comment-reply" );
 
 		// Load Stylesheets
