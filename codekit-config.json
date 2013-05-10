@@ -42,21 +42,21 @@
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.cookie-ck-ck.js",
       "fileType" : 64
     },
-    "\/stylesheets\/app.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/stylesheets\/app.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/css\/foundation.min.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/css\/foundation.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/stylesheets\/app.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/stylesheets\/app.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -217,15 +217,15 @@
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.section-ck.js",
       "fileType" : 64
     },
-    "\/js\/foundation\/foundation.orbit-ck.js" : {
+    "\/js\/foundation\/foundation.placeholder.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.orbit-ck.js",
+      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.placeholder.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.orbit-ck-ck.js",
+      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.placeholder-ck.js",
       "fileType" : 64
     },
     "\/js\/vendor\/zepto.js" : {
@@ -239,16 +239,17 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/zepto-ck.js",
       "fileType" : 64
     },
-    "\/js\/foundation\/foundation.placeholder.js" : {
+    "\/scss\/foundation\/components\/_flex-video.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.placeholder.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.placeholder-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/scss\/foundation\/components\/_flex-video.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/foundation\/css\/_flex-video.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/scss\/foundation\/components\/_pagination.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -259,29 +260,6 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/scss\/foundation\/css\/_pagination.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/js\/foundation\/foundation.joyride-ck.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.joyride-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.joyride-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/scss\/foundation\/components\/_flex-video.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/foundation\/components\/_flex-video.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/foundation\/css\/_flex-video.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
@@ -307,6 +285,28 @@
       "outputAbbreviatedPath" : "\/css\/foundation.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/foundation\/foundation.orbit-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.orbit-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.orbit-ck-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/foundation\/foundation.joyride-ck.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/foundation\/foundation.joyride-ck.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/foundation\/foundation.joyride-ck-ck.js",
+      "fileType" : 64
     },
     "\/js\/foundation\/foundation.magellan-ck.js" : {
       "ignoreWasSetByUser" : 0,
@@ -671,6 +671,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
+    "\/author-box.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/author-box.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/scss\/foundation\/components\/_side-nav.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -683,15 +692,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/content-aside.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-aside.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/vendor\/custom.modernizr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -703,21 +703,21 @@
       "outputAbbreviatedPath" : "\/js\/vendor\/custom.modernizr-ck.js",
       "fileType" : 64
     },
+    "\/content-aside.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content-aside.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/inc\/shortcodes.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/inc\/shortcodes.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -733,12 +733,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/author-box.php" : {
+    "\/index.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/author-box.php",
+      "inputAbbreviatedPath" : "\/index.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -763,17 +763,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/vendor\/jquery.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-ck.js",
-      "fileType" : 64
-    },
     "\/js\/foundation\/foundation.clearing-ck.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -796,6 +785,17 @@
       "outputAbbreviatedPath" : "\/css\/normalize.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/vendor\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/jquery-ck.js",
+      "fileType" : 64
     },
     "\/js\/foundation\/foundation.js" : {
       "ignoreWasSetByUser" : 0,
@@ -991,15 +991,6 @@
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.clearing-ck.js",
       "fileType" : 64
     },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/foundation\/foundation.magellan.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1010,6 +1001,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/foundation\/foundation.magellan-ck.js",
       "fileType" : 64
+    },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/scss\/foundation\/components\/_button-groups.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -1023,18 +1023,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/scss\/foundation\/components\/_grid.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/foundation\/components\/_grid.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/scss\/foundation\/css\/_grid.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/scss\/foundation\/components\/_reveal.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1044,6 +1032,18 @@
       "outputStyle" : 0,
       "shouldRunBless" : 0,
       "outputAbbreviatedPath" : "\/scss\/foundation\/css\/_reveal.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/scss\/foundation\/components\/_grid.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/foundation\/components\/_grid.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/scss\/foundation\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
