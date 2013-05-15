@@ -6,5 +6,5 @@ Icon?
 Thumbs.db
 .espressostorage
 *.esproj
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace
