@@ -1,4 +1,6 @@
-# Foundation, for WordPress 4.0
+# Total rebuild of Foundation for Wordpress 4.0 for Team One wensite redesign with SASS/SCSS addition + custom JS and styles
+
+~~# Foundation, for WordPress 4.0
 
 Foundation, for WordPress, is a blank starter theme built on [ZURB's Foundation Framework](http://foundation.zurb.com/) v4.
 
@@ -46,3 +48,4 @@ You can preview Foundation, for WordPress at this link:
 + [Blog](http://drewsymo.com/)
 + [Twitter](http://twitter.com/drewsymo/)
 + [Google+](https://plus.google.com/114153589610660530694/)
+~~
