@@ -463,9 +463,9 @@ function codex_custom_init() {
     'view_item' => 'View Work',
     'search_items' => 'Search Work',
     'not_found' =>  'No Work found',
-    'not_found_in_trash' => 'No Works found in Trash', 
+    'not_found_in_trash' => 'No Work found in Trash', 
     'parent_item_colon' => '',
-    'menu_name' => 'Works'
+    'menu_name' => 'Work'
   );
 
   $args = array(
@@ -479,7 +479,7 @@ function codex_custom_init() {
     'capability_type' => 'post',
     'has_archive' => true, 
     'hierarchical' => false,
-    'menu_position' => null,
+    'menu_position' => 5,
     'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
   ); 
 
