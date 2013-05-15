@@ -450,4 +450,44 @@ if (file_exists($foundation_shortcodes)) {
 	require( $foundation_shortcodes );
 }
 
+//Custom Theme Functions ala Team One
+function codex_custom_init() {
+  $labels = array(
+    'name' => 'Work',
+    'singular_name' => 'Work',
+    'add_new' => 'Add New',
+    'add_new_item' => 'Add New Work',
+    'edit_item' => 'Edit Work',
+    'new_item' => 'New Work',
+    'all_items' => 'All Work',
+    'view_item' => 'View Work',
+    'search_items' => 'Search Work',
+    'not_found' =>  'No Work found',
+    'not_found_in_trash' => 'No Works found in Trash', 
+    'parent_item_colon' => '',
+    'menu_name' => 'Works'
+  );
+
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'publicly_queryable' => true,
+    'show_ui' => true, 
+    'show_in_menu' => true, 
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'Work' ),
+    'capability_type' => 'post',
+    'has_archive' => true, 
+    'hierarchical' => false,
+    'menu_position' => null,
+    'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
+  ); 
+
+  register_post_type( 'Work', $args );
+}
+add_action( 'init', 'codex_custom_init' );
+
+
+
+
 ?>
